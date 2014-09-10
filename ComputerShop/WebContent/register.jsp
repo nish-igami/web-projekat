@@ -13,7 +13,7 @@
 			<input type="text" name="username" placeholder="username here..." /> <br />
 			<input type="password" name="password" placeholder="and password here!" /> <br />
 			<input type="password" name="password_conf" placeholder="enter password one more time" /> <br />
-			Does this user has admin privileges? <input type="checkbox" name="admin" /> <br />
+			<br />
 			
 			Tell us a few things about you : <br />
 			<input type="text" name="first_name" placeholder="Like, your first name" /> <br />

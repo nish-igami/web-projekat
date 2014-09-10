@@ -15,9 +15,9 @@
 
 	<body>
 		
-		<div class="header"> <a href="login.jsp"><img src="resources/images/users.png" height="64" width="64"> </a>
-					    <a href="loginAdmin.jsp"><img src="resources/images/admin.png" height="64" width="64"> </a>
-					   <a href="register.jsp"><img src="resources/images/register.jpg" height="64" width="64"> </a> 
+		<div class="header"> <a href="bootstrapLogin.jsp"><img src="resources/images/users.png" height="64" width="64"> </a>
+					    <a href="bootstrapLoginAdmin.jsp"><img src="resources/images/admin.png" height="64" width="64"> </a>
+					   <a href="bootstrapRegister.jsp"><img src="resources/images/register.jpg" height="64" width="64"> </a> 
 		</div>
 
 		<h1> Welcome page </h1>
@@ -27,13 +27,13 @@
 		<table> 
 			<tr> 
 				<td> 
-					<a href="login.jsp" > <img src="resources/images/users.png" height="256" width="256"> </a>
+					<a href="bootstrapLogin.jsp" > <img src="resources/images/users.png" height="256" width="256"> </a>
 			    </td> 
 				<td> 
-					<a href="loginAdmin.jsp" > <img src="resources/images/admin.png" height="256" width="256"> </a> 
+					<a href="bootstrapLoginAdmin.jsp" > <img src="resources/images/admin.png" height="256" width="256"> </a> 
 				</td>
 				<td>
-					<a href="register.jsp" > <img src="resources/images/register.jpg" height="256" width="256"> </a>
+					<a href="bootstrapRegister.jsp" > <img src="resources/images/register.jpg" height="256" width="256"> </a>
 				</td> 
 			</tr> 
 		</table>
