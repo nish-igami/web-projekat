@@ -1,6 +1,6 @@
 <%= user.setRole(Role.ADMIN) %>
 
- Following is the syntax to include JSTL Core library in your JSP:
+Following is the syntax to include JSTL Core library in your JSP:
  
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
