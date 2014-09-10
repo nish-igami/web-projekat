@@ -1,0 +1,65 @@
+<%= user.setRole(Role.ADMIN) %>
+
+ Following is the syntax to include JSTL Core library in your JSP:
+ 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+
+
+<c:out >	Like <%= ... >, but for expressions.
+<c:set >	Sets the result of an expression evaluation in a 'scope'
+<c:remove >	Removes a scoped variable (from a particular scope, if specified).
+<c:catch>	Catches any Throwable that occurs in its body and optionally exposes it.
+<c:if>	Simple conditional tag which evalutes its body if the supplied condition is true.
+<c:choose>	Simple conditional tag that establishes a context for mutually exclusive conditional operations, marked by <when> and <otherwise>
+<c:when>	Subtag of <choose> that includes its body if its condition evalutes to 'true'.
+<c:otherwise >	Subtag of <choose> that follows <when> tags and runs only if all of the prior conditions evaluated to 'false'.
+<c:import>	Retrieves an absolute or relative URL and exposes its contents to either the page, a String in 'var', or a Reader in 'varReader'.
+<c:forEach >	The basic iteration tag, accepting many different collection types and supporting subsetting and other functionality .
+<c:forTokens>	Iterates over tokens, separated by the supplied delimeters.
+<c:param>	Adds a parameter to a containing 'import' tag's URL.
+<c:redirect >	Redirects to a new URL.
+<c:url>	Creates a URL with optional query parameters
+
+http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm
+
+
+
+
+
+This was my problem and how I fixed it...
+
+I had done everything everyone had mentioned above etc. but was still getting this error. Turns out I was using the uri's of http://java.sun.com/jsp/jstl/fmt and http://java.sun.com/jsp/jstl/core which were incorrect.
+
+Try switching the uris from above to:
+
+http://java.sun.com/jstl/fmt
+http://java.sun.com/jstl/core
+Also, make sure you have the correct jars referenced in your class path.
+
+
+
+
+
+
+
+
+
+####  Sada prilikom logovanja, u Login Servletu svaki put pravi novog usera.. // treba da pristupi listi postojecih !
+
+
+#  Milose.....   if  (retVal == "success") ili (retVal.equals("success"))  {         ????
+
+13.6.    ->  uklonio sam 'static' iz DBMS.userID
+
+http://www.the-art-of-web.com/html/html5-checkbox-required/#example1        just awesome
+
+1. - u servletu "vi ne mozete dodati korisnika jer niste admin" 
+2. - ili u stranici uopste da se ne prikaze dugme !   <- usvojeno!
+
+
+
+<multipart-config>
+      <max-file-size>3145728</max-file-size>
+      <max-request-size>5242880</max-request-size>
+    </multipart-config>

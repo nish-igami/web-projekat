@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" 
+  xmlns="http://java.sun.com/xml/ns/j2ee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" >
+	<display-name>
+		ComputerChopShop
+	</display-name>
+		
+	<servlet>
+		<description>		</description>
+		<display-name>LoginServlet</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>controller.LoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>RegisterServlet</display-name>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>controller.RegisterServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>MasterPrepareServlet</display-name>
+		<servlet-name>MasterPrepareServlet</servlet-name>
+		<servlet-class>controller.MasterPrepareServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MasterPrepareServlet</servlet-name>
+		<url-pattern>/MasterPrepareServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>MasterServlet</display-name>
+		<servlet-name>MasterServlet</servlet-name>
+		<servlet-class>controller.MasterServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MasterServlet</servlet-name>
+		<url-pattern>/MasterServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>PrepareCreateCategoryServlet</display-name>
+		<servlet-name>PrepareCreateCategoryServlet</servlet-name>
+		<servlet-class>controller.PrepareCreateCategoryServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PrepareCreateCategoryServlet</servlet-name>
+		<url-pattern>/PrepareCreateCategoryServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>PrepareCreateComponentServlet</display-name>
+		<servlet-name>PrepareCreateComponentServlet</servlet-name>
+		<servlet-class>controller.PrepareCreateComponentServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PrepareCreateComponentServlet</servlet-name>
+		<url-pattern>/PrepareCreateComponentServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<display-name>PrepareComponentServlet</display-name>
+		<servlet-name>PrepareComponentServlet</servlet-name>
+		<servlet-class>controller.PrepareComponentServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PrepareComponentServlet</servlet-name>
+		<url-pattern>/PrepareComponentServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>PrepareDeviceServlet</display-name>
+		<servlet-name>PrepareDeviceServlet</servlet-name>
+		<servlet-class>controller.PrepareDeviceServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PrepareDeviceServlet</servlet-name>
+		<url-pattern>/PrepareDeviceServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<display-name>PrepareCreateDeviceServlet</display-name>
+		<servlet-name>PrepareCreateDeviceServlet</servlet-name>
+		<servlet-class>controller.PrepareCreateDeviceServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PrepareCreateDeviceServlet</servlet-name>
+		<url-pattern>/PrepareCreateDeviceServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<display-name>CreateCategoryServlet</display-name>
+		<servlet-name>CreateCategoryServlet</servlet-name>
+		<servlet-class>controller.CreateCategoryServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CreateCategoryServlet</servlet-name>
+		<url-pattern>/CreateCategoryServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<display-name>CreateComponentServlet</display-name>
+		<servlet-name>CreateComponentServlet</servlet-name>
+		<servlet-class>controller.CreateComponentServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CreateComponentServlet</servlet-name>
+		<url-pattern>/CreateComponentServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<display-name>CreateDeviceServlet</display-name>
+		<servlet-name>CreateDeviceServlet</servlet-name>
+		<servlet-class>controller.CreateDeviceServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CreateDeviceServlet</servlet-name>
+		<url-pattern>/CreateDeviceServlet</url-pattern>
+	</servlet-mapping>		 
+	 
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+
+</web-app>
+
+  
